@@ -19,6 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void selecionarBotao(View v){
         int x = new Random().nextInt(11);
         TextView texto = findViewById(R.id.textoResultado);
-        texto.setText("Número sorteado foi: " + x);
+        texto.setText("Número sorteado foi: " + (x * 2);
     }
 }

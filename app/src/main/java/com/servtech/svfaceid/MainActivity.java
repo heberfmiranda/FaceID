@@ -20,6 +20,5 @@ public class MainActivity extends AppCompatActivity {
         int x = new Random().nextInt(11);
         TextView texto = findViewById(R.id.textoResultado);
         texto.setText("Número sorteado foi: " + x);
-
     }
 }
